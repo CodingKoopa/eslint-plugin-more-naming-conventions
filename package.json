@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-more-naming-conventions",
+  "version": "1.0.0",
+  "description": "A plugin for the ESLint linter that adds more naming conventions for variables and functions.",
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "snake-case",
+    "snakecase",
+    "snake_case",
+    "underscore-case",
+    "underscore_case",
+    "upper-camel-case",
+    "upper-camelcase"
+  ],
+  "homepage": "https://github.com/TheKoopaKingdom/eslint-plugin-more-naming-conventions",
+  "bugs": "https://github.com/TheKoopaKingdom/eslint-plugin-more-naming-conventions/issues",
+  "license": "GPL-3.0",
+  "author": "TheKoopaKingdom <thekoopakingdom@gmail.com>",
+  "main": "Source/Index.js",
+  "repository": "TheKoopaKingdom/eslint-plugin-more-naming-conventions",
+  "scripts": {
+    "test": "eslint Source"
+  },
+  "dependencies": {
+    "eslint": "^4.8.0"
+  }
+}
