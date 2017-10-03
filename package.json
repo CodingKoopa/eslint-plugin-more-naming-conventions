@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-more-naming-conventions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin for the ESLint linter that adds more naming conventions for variables and functions.",
   "keywords": [
     "eslint",
