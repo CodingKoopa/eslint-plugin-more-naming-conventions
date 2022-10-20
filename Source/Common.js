@@ -12,9 +12,9 @@ const snake_case_regex = FormatRegexCaptureGroup(`[a-z]([a-z]|[0-9]|_)*`);
 
 function MakeVariableNameFixers(original_fixer, source_code_text, variable_name, new_variable_name)
 {
-  var match_start;
-  var match_end = 0;
-  var fixers = [];
+  let match_start;
+  let match_end = 0;
+  const fixers = [];
   while ((match_start = source_code_text.indexOf(variable_name, match_end)) > -1)
   {
     match_end = match_start + variable_name.length;
